@@ -1,0 +1,9 @@
+interface Person {
+    name: string;
+    age: number;
+    email:string;
+  }
+
+  function printPersonDetails(person: Person) {
+    console.log(`Name: ${person.name}, Age: ${person.age}, Email: ${person.email}`);
+}
